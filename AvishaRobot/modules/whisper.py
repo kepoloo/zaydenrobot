@@ -20,7 +20,7 @@ async def _whisper(_, inline_query):
                 title="💌 ᴡʜɪsᴘᴇʀ",
                 description=f"@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]",
                 input_message_content=InputTextMessageContent(f"💌 ᴜsᴀɢᴇ ➥ \n\n@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]"),
-                thumb_url="https://graph.org/file/182bc6c2f3693d8a3fd0c.jpg",
+                thumb_url="https://telegra.ph//file/5c0004b5c4b5d4ece9948.jpg",
                 reply_markup=switch_btn
             )
         ]
@@ -39,7 +39,7 @@ async def _whisper(_, inline_query):
                     title="💌 ᴡʜɪsᴘᴇʀ",
                     description="⬤ ɪɴᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ !",
                     input_message_content=InputTextMessageContent("⬤ ɪɴᴠᴀʟɪᴅ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ!"),
-                    thumb_url="https://graph.org/file/182bc6c2f3693d8a3fd0c.jpg",
+                    thumb_url="https://telegra.ph//file/5c0004b5c4b5d4ece9948.jpg",
                     reply_markup=switch_btn
                 )
             ]
@@ -52,14 +52,14 @@ async def _whisper(_, inline_query):
                     title="💌 ᴡʜɪsᴘᴇʀ",
                     description=f"⬤ sᴇɴᴅ ᴀ ᴡʜɪsᴘᴇʀ ᴛᴏ ➥ {user.first_name}",
                     input_message_content=InputTextMessageContent(f"💌 ᴀ ᴡʜɪsᴘᴇʀ ᴍᴇssᴀɢᴇ ᴛᴏ ➥ {user.first_name} ᴏɴʟʏ ʜᴇ/sʜᴇ ᴄᴀɴ ᴏᴘᴇɴ ɪᴛ.\n\n❅ ᴛʏᴘᴇ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ/sᴇɴᴛᴇɴᴄᴇ."),
-                    thumb_url="https://graph.org/file/182bc6c2f3693d8a3fd0c.jpg",
+                    thumb_url="https://telegra.ph//file/5c0004b5c4b5d4ece9948.jpg",
                     reply_markup=whisper_btn
                 ),
                 InlineQueryResultArticle(
                     title="💌 ᴏɴᴇ-ᴛɪᴍᴇ ᴡʜɪsᴘᴇʀ",
                     description=f"๏ sᴇɴᴅ ᴀ ᴏɴᴇ-ᴛɪᴍᴇ ᴡʜɪsᴘᴇʀ ᴛᴏ {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"🍄 ʏᴏᴜ ᴀʀᴇ sᴇɴᴅɪɴɢ ᴀ ᴏɴᴇ-ᴛɪᴍᴇ ᴡʜɪsᴘᴇʀ ᴛᴏ ➥ {user.first_name} ᴏɴʟʏ ʜᴇ/sʜᴇ ᴄᴀɴ ᴏᴘᴇɴ ɪᴛ.\n\n❅ ᴛʏᴘᴇ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ/sᴇɴᴛᴇɴᴄᴇ."),
-                    thumb_url="https://telegra.ph/file/21c69049c4855ac0a035b.jpg",
+                    thumb_url="https://telegra.ph//file/5c0004b5c4b5d4ece9948.jpg",
                     reply_markup=one_time_whisper_btn
                 )
             ]
@@ -82,7 +82,7 @@ async def whispes_cb(_, query):
     to_user = int(data[2])
     user_id = query.from_user.id
     
-    if user_id not in [from_user, to_user, 6922271843]:
+    if user_id not in [from_user, to_user, 1149301515]:
         try:
             await _.send_message(from_user, f"⬤ {query.from_user.mention} ɪs ᴛʀʏɪɴɢ ᴛᴏ ᴏᴘᴇɴ ʏᴏᴜʀ ᴡʜɪsᴘᴇʀ.")
         except Unauthorized:
@@ -110,9 +110,9 @@ async def in_help():
     answers = [
         InlineQueryResultArticle(
             title="💌 ᴡʜɪsᴘᴇʀ",
-            description=f"@AvishaXbot [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**⬤ ᴜsᴀɢᴇ ➥**\n\n@AvishaXbot (ᴛᴀʀɢᴇᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ) (ʏᴏᴜʀ ᴍᴇssᴀɢᴇ).\n\n**๏ ᴇxᴀᴍᴘʟᴇ ➠**\n@AvishaxBot @username ɪ ᴡᴀɴɴᴀ ғᴜᴄᴋ ʏᴏᴜ"),
-            thumb_url="https://telegra.ph/file/21c69049c4855ac0a035b.jpg",
+            description=f"@ZaydenStreamBot [USERNAME | ID] [TEXT]",
+            input_message_content=InputTextMessageContent(f"**⬤ ᴜsᴀɢᴇ ➥**\n\n@ZaydenStreamBot (ᴛᴀʀɢᴇᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ) (ʏᴏᴜʀ ᴍᴇssᴀɢᴇ).\n\n**๏ ᴇxᴀᴍᴘʟᴇ ➠**\n@ZaydenStreamBot @username ɪ ᴡᴀɴɴᴀ ғᴜᴄᴋ ʏᴏᴜ"),
+            thumb_url="https://telegra.ph//file/5c0004b5c4b5d4ece9948.jpg",
             reply_markup=switch_btn
         )
     ]
@@ -133,7 +133,7 @@ async def bot_inline(_, inline_query):
 
 __help__ = """
 
-⬤ @AvishaxBot [@username] || [id] ʏᴏᴜʀ ᴍᴇssᴀɢᴇ
+⬤ @ZaydenStreamBot [@username] || [id] ʏᴏᴜʀ ᴍᴇssᴀɢᴇ
 """
 
 __mod_name__ = "ᴡʜɪsᴘᴇʀ"
