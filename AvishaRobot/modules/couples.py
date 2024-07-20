@@ -13,8 +13,8 @@ from AvishaRobot.mongo.couples_db import _get_image, get_couple
 AVISHA = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
-            url=f"https://t.me/avishaxbot?startgroup=true",
+            text="ᴀᴅᴅ ᴍᴇ",
+            url=f"https://t.me/ZaydenStreamBot?startgroup=true",
         ),
     ],
 ]
