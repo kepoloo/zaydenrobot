@@ -18,7 +18,7 @@ from AvishaRobot import *
 from AvishaRobot import LOGGER
 from AvishaRobot.events import register
 
-BOT_ID = 6413915892
+BOT_ID = 1831651209
 CMD_HELP = "/ !"
 
 
