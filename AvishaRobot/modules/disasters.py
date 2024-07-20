@@ -31,7 +31,7 @@ ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "AvishaRobot/elevated_users.json
 def check_user_id(user_id: int, context: CallbackContext) -> Optional[str]:
     bot = context.bot
     if not user_id:
-        reply = "๏ ᴛʜᴀᴛ...ɪs ᴀ ᴄʜᴀᴛ ! ʙᴀᴋᴀ ᴋᴀ ᴏᴍᴀᴇ ?"
+        reply = "๏ ᴛʜᴀᴛ...ɪs ᴀ ᴄʜᴀᴛ !"
 
     elif user_id == bot.id:
         reply = "๏ ᴛʜɪs ᴅᴏᴇs ɴᴏᴛ ᴡᴏʀᴋ ᴛʜᴀᴛ ᴡᴀʏ."
