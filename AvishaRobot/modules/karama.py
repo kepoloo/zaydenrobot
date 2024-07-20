@@ -26,7 +26,7 @@ karma_negative_group = 4
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/avishaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/ZaydenStreamBot?startgroup=true"),
     ],
 ]
 
@@ -67,7 +67,7 @@ async def upvote(_, message):
     new_karma = {"karma": karma}
     await update_karma(chat_id, await int_to_alpha(user_id), new_karma)
     await message.reply_text(
-        f"❖ ɪɴᴄʀᴇᴍᴇɴᴛᴇᴅ ᴋᴀʀᴍᴀ ᴏғ {user_mention} ʙʏ 1\n**● ᴛᴏᴛᴀʟ ᴩᴏɪɴᴛs ➥** {karma}\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐", reply_markup=InlineKeyboardMarkup(EVAA),
+        f"❖ ɪɴᴄʀᴇᴍᴇɴᴛᴇᴅ ᴋᴀʀᴍᴀ ᴏғ {user_mention} ʙʏ 1\n**● ᴛᴏᴛᴀʟ ᴩᴏɪɴᴛs ➥** {karma}\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹𝙕𝙖𝙮𝙙𝙚𝙣 ✘ 𝙅𝙤𝙤𝙭 🎧˼", reply_markup=InlineKeyboardMarkup(EVAA),
     )
 
 
@@ -107,7 +107,7 @@ async def downvote(_, message):
     new_karma = {"karma": karma}
     await update_karma(chat_id, await int_to_alpha(user_id), new_karma)
     await message.reply_text(
-        f"❖ ᴅᴇᴄʀᴇᴍᴇɴᴛᴇᴅ ᴋᴀʀᴍᴀ ᴏғ {user_mention} ʙʏ 1\n**● ᴛᴏᴛᴀʟ ᴩᴏɪɴᴛs ➥** {karma}\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐", reply_markup=InlineKeyboardMarkup(EVAA),
+        f"❖ ᴅᴇᴄʀᴇᴍᴇɴᴛᴇᴅ ᴋᴀʀᴍᴀ ᴏғ {user_mention} ʙʏ 1\n**● ᴛᴏᴛᴀʟ ᴩᴏɪɴᴛs ➥** {karma}\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹𝙕𝙖𝙮𝙙𝙚𝙣 ✘ 𝙅𝙤𝙤𝙭 🎧˼", reply_markup=InlineKeyboardMarkup(EVAA),
     )
 
 
