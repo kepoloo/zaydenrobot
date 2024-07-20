@@ -30,8 +30,8 @@ MISHI = [
 ROY = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
-            url=f"https://t.me/avishaxbot?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ",
+            url=f"https://t.me/ZaydenStreamBot?startgroup=true"),
     ],
 ]
 
