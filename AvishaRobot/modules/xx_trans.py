@@ -38,7 +38,7 @@ def totranslate(update: Update, context: CallbackContext) -> None:
     translation = trans(to_translate, sourcelang=source, targetlang=dest)
     reply = (
         f"❖ <b>ᴛʀᴀɴsʟᴀᴛᴇᴅ ғʀᴏᴍ {source} ᴛᴏ {dest}</b> ➥\n\n"
-        f"♥︎ {translation.text}\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐"
+        f"♥︎ {translation.text}\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹𝙕𝙖𝙮𝙙𝙚𝙣 ✘ 𝙅𝙤𝙤𝙭 🎧˼"
     )
 
     message.reply_text(reply, parse_mode=ParseMode.HTML)
@@ -64,7 +64,7 @@ from telethon import __version__ as s
 from AvishaRobot import OWNER_ID, dispatcher
 from AvishaRobot import pbot as client
 
-AVISHA = "https://graph.org/file/dcc62e53435a919373a0a.jpg"
+AVISHA = "https://telegra.ph//file/5c0004b5c4b5d4ece9948.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
