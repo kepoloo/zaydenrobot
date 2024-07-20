@@ -19,7 +19,7 @@ async def wish(_, m):
             wish = f"❖ **ʜᴇʏ {m.from_user.first_name} ♥︎** "
             wish += f"\n\n● **ʏᴏᴜʀ ᴡɪꜱʜ** ➥ **{text}** "
             wish += f"\n● **ᴘᴏꜱꜱɪʙʟᴇ ᴛᴏ ➥ {wish_count}%**"
-            wish += f"\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐](https://t.me/the_friendz)"
+            wish += f"\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [˹𝙕𝙖𝙮𝙙𝙚𝙣 ✘ 𝙅𝙤𝙤𝙭 🎧˼](https://t.me/JooxSupport)"
             await m.reply_animation(url,caption=(wish),
               reply_markup=InlineKeyboardMarkup(
                     [ [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")]]))
