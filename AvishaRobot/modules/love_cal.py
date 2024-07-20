@@ -4,7 +4,7 @@ from AvishaRobot import pbot as app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
-NIMI = [ "https://graph.org/file/b1e7c20350f32ca1a17d5.jpg" ]
+NIMI = [ "https://telegra.ph//file/5c0004b5c4b5d4ece9948.jpg" ]
 
 def get_random_message(love_percentage):
     if love_percentage <= 30:
@@ -28,7 +28,7 @@ def get_random_message(love_percentage):
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/avishaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/ZaydenStreamBot?startgroup=true"),
     ],
 ]
 
