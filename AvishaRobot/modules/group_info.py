@@ -4,7 +4,7 @@ from AvishaRobot import pbot as app
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/avishaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/ZaydenStreamBot?startgroup=true"),
     ],
 ]
 
@@ -32,7 +32,7 @@ async def get_group_status(_, message: Message):
         f"● ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs ➥ {total_members}\n"
         f"● ᴜsᴇʀɴᴀᴍᴇ ➥ @{group_username}\n"
         f"● ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ➥ \n{group_description or 'N/A'}\n\n"
-        f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐"
+        f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹𝙕𝙖𝙮𝙙𝙚𝙣 ✘ 𝙅𝙤𝙤𝙭 🎧˼"
     )
     
     await message.reply((response_text),reply_markup=InlineKeyboardMarkup(EVAA),)
@@ -51,7 +51,7 @@ def group_status(client, message):
                   f"● ᴛʏᴘᴇ ➥ {chat.type}\n"
                   
     if chat.username:  # Not all groups have a username
-        status_text += f"● ᴜsᴇʀɴᴀᴍᴇ ➥ @{chat.username}\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐"
+        status_text += f"● ᴜsᴇʀɴᴀᴍᴇ ➥ @{chat.username}\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹𝙕𝙖𝙮𝙙𝙚𝙣 ✘ 𝙅𝙤𝙤𝙭 🎧˼"
     else:
         status_text += "Username: None"
 
