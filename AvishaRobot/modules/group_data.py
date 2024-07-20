@@ -8,7 +8,7 @@ from AvishaRobot import pbot as app
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/avishaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/ZaydenStreamBot?startgroup=true"),
     ],
 ]
 
@@ -51,7 +51,7 @@ async def instatus(app, message):
 ● ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀs ➥ {premium_acc} 
 ● ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ➥ {timelog} 
 
-❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐  **""", reply_markup=InlineKeyboardMarkup(EVAA),)
+❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹𝙕𝙖𝙮𝙙𝙚𝙣 ✘ 𝙅𝙤𝙤𝙭 🎧˼  **""", reply_markup=InlineKeyboardMarkup(EVAA),)
     else:
         sent_message = await message.reply_text("✦ ONLY ADMINS CAN USE THIS !")
         await sleep(5)
