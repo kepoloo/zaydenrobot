@@ -104,7 +104,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text=" ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ", 
+            text=" ᴀᴅᴅ ᴍᴇ ", 
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true", 
         ),
     ],
@@ -220,7 +220,7 @@ NYKAA = [
 ]
 
 
-DONATE_STRING = f"""❅ ʜᴇʏ ʙᴀʙʏ, ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ. ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @roy_editx ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @the_friendz ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+DONATE_STRING = f"""❅ ʜᴇʏ ʙᴀʙʏ, ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ. ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @FounderGit ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @JooxSupport ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -357,7 +357,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             random.choice(NYKAA),
-            caption="⬤ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐ ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.\n\n⬤ ᴜᴘᴛɪᴍᴇ ➥ <code>{}</code>".format(
+            caption="⬤ ˹𝙕𝙖𝙮𝙙𝙚𝙣 ✘ 𝙅𝙤𝙤𝙭 🎧˼ ɪs ᴀʟɪᴠᴇ.\n\n⬤ ᴜᴘᴛɪᴍᴇ ➥ <code>{}</code>".format(
                 uptime
             ),
             reply_markup=InlineKeyboardMarkup(roy),
@@ -517,7 +517,7 @@ def Avisha_about_callback(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="avisha_back"),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/roy_editx"
+                            text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/JooxStream"
                         ),
                     ],
                 ]
@@ -592,7 +592,7 @@ def AvishaRobot_Main_Callback(update: Update, context: CallbackContext):
             ),
             )                                        
     elif query.data=="advance_help":
-        query.message.edit_caption("""✿ ʜᴇʀᴇ ɪs ᴀʟʟ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴀᴛᴄʜᴇʀ ( ɢᴀʙʙᴀʀ ʜᴇʀᴇᴍ ) ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴀɴᴅs.\n\n❍ /guess ➛ ᴛᴏ ɢᴜᴇss ᴄʜᴀʀᴀᴄᴛᴇʀ.\n❍ /fav ➛ ᴀᴅᴅ ʏᴏᴜʀ ғᴀᴠʀᴀᴛᴇ.\n❍ /trade ➛ ᴛᴏ ᴛʀᴀᴅᴇ ᴄʜᴀʀᴀᴄᴛᴇʀs.\n❍ /gift ➛ ɢɪᴠᴇ ᴀɴʏ ᴄʜᴀʀᴀᴄᴛᴇʀ ғʀᴏᴍ ʏᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ ᴛᴏ ᴀɴᴏᴛʜᴇʀ ᴜsᴇʀ.\n❍ /collection ➛ ᴛᴏ sᴇᴇ ʏᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ.\n❍ /topgroups ➛ sᴇᴇ ᴛᴏᴘ ɢʀᴏᴜᴘs, ᴘᴘʟ ɢᴜᴇssᴇs ᴍᴏsᴛ ɪɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘs.\n❍ /top ➛ ᴛᴏᴏ sᴇᴇ ᴛᴏᴘ ᴜsᴇʀs.\n❍ /ctop ➛ ʏᴏᴜʀ ᴄʜᴀᴛ ᴛᴏᴘ.\n❍ /changetime ➛ ᴄʜᴀɴɢᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴀᴘᴘᴇᴀʀ ᴛɪᴍᴇ .\n❍ /herem ➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄʜᴀᴛᴄʜ.""",parse_mode=ParseMode.MARKDOWN,
+        query.message.edit_caption(""" ʜᴇʀᴇ ɪs ᴀʟʟ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄᴀᴛᴄʜᴇʀ ᴀɴɪᴍᴇ ᴄᴏᴍᴍᴀɴᴅs.\n\n❍ /guess ➛ ᴛᴏ ɢᴜᴇss ᴄʜᴀʀᴀᴄᴛᴇʀ.\n❍ /fav ➛ ᴀᴅᴅ ʏᴏᴜʀ ғᴀᴠʀᴀᴛᴇ.\n❍ /trade ➛ ᴛᴏ ᴛʀᴀᴅᴇ ᴄʜᴀʀᴀᴄᴛᴇʀs.\n❍ /gift ➛ ɢɪᴠᴇ ᴀɴʏ ᴄʜᴀʀᴀᴄᴛᴇʀ ғʀᴏᴍ ʏᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ ᴛᴏ ᴀɴᴏᴛʜᴇʀ ᴜsᴇʀ.\n❍ /collection ➛ ᴛᴏ sᴇᴇ ʏᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ.\n❍ /topgroups ➛ sᴇᴇ ᴛᴏᴘ ɢʀᴏᴜᴘs, ᴘᴘʟ ɢᴜᴇssᴇs ᴍᴏsᴛ ɪɴ ᴛʜᴀᴛ ɢʀᴏᴜᴘs.\n❍ /top ➛ ᴛᴏᴏ sᴇᴇ ᴛᴏᴘ ᴜsᴇʀs.\n❍ /ctop ➛ ʏᴏᴜʀ ᴄʜᴀᴛ ᴛᴏᴘ.\n❍ /changetime ➛ ᴄʜᴀɴɢᴇ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴀᴘᴘᴇᴀʀ ᴛɪᴍᴇ .\n❍ /herem ➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴄʜᴀʀᴀᴄᴛᴇʀ ᴄʜᴀᴛᴄʜ.""",parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -718,7 +718,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "Music_play":
-        query.message.edit_caption(f"*✿ ᴘʟᴀʏ ᴄᴏᴍᴍᴀɴᴅꜱ ✿*"
+        query.message.edit_caption(f"* ᴘʟᴀʏ ᴄᴏᴍᴍᴀɴᴅꜱ *"
             f"""
 ❍ /play ᴏʀ /vplay ᴏʀ /cplay ➛ ʙᴏᴛ ᴡɪʟʟ ꜱᴛᴀʀᴛ ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ɢɪᴠᴇɴ ϙᴜᴇʀʏ on ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴏʀ ꜱᴛʀᴇᴀᴍ ʟɪᴠᴇ ʟɪɴᴋꜱ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛꜱ.
 
@@ -743,7 +743,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "Music_bot":
-        query.message.edit_caption(f"*✿ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ✿*"
+        query.message.edit_caption(f"* ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ *"
            
             f"""
 ❍ /stats ➛ ɢᴇᴛ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋꜱ ɢʟᴏʙᴀʟ ꜱᴛᴀᴛꜱ, ᴛᴏᴘ 10 ᴜꜱᴇʀꜱ ᴏғ ʙᴏᴛ, ᴛᴏᴘ 10 ᴄʜᴀᴛꜱ ᴏɴ ʙᴏᴛ, ᴛᴏᴘ 10 ᴘʟᴀʏᴇᴅ ɪɴ ᴀ ᴄʜᴀᴛ ᴇᴛᴄ ᴇᴛᴄ.
@@ -771,7 +771,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "Music_extra":
-        query.message.edit_caption(f"*✿ ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ ✿*"
+        query.message.edit_caption(f"* ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ *"
             
              f"""
 ❍ /mstart ➛ ꜱᴛᴀʀᴛ ᴛʜᴇ ᴍᴜꜱɪᴄ ʙᴏᴛ.
@@ -805,7 +805,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
     query = update.callback_query
     if query.data == "Music_roy":
-        query.message.edit_caption(f"""✿ ʜᴇʀᴇ ɪꜱ ʜᴇʟᴘ ᴍᴇɴᴜ ꜰᴏʀ ꜱᴘᴀᴍ ʀᴀɪᴅ ✿""",
+        query.message.edit_caption(f""" ʜᴇʀᴇ ɪꜱ ʜᴇʟᴘ ᴍᴇɴᴜ ꜰᴏʀ ꜱᴘᴀᴍ ʀᴀɪᴅ """,
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
@@ -832,7 +832,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "Music_roy_admin":
-        query.message.edit_caption(f"*✿ ꜱᴘᴀᴍ  ᴄᴏᴍᴍᴀɴᴅꜱ ✿*"
+        query.message.edit_caption(f"* ꜱᴘᴀᴍ  ᴄᴏᴍᴍᴀɴᴅꜱ *"
             f"""\n\n֍ 𝗦𝗽𝗮𝗺 ➠ ๏ ꜱᴘᴀᴍꜱ ᴀ ᴍᴇꜱꜱᴀɢᴇ. ๏\n  ๛ /spam <count> <message to spam> (you can reply any message if you want bot to reply that message and do spamming)\n  ๛ /spam <count> <replying any message>\n\n֍ 𝗣𝗼𝗿𝗻𝗦𝗽𝗮𝗺 ➠ ๏ ᴘᴏʀᴍᴏɢʀᴀᴘʜʏ ꜱᴘᴀᴍ. ๏\n  ๛ /pspam <count>\n\n֍ 𝗛𝗮𝗻𝗴 ➠ ๏ ꜱᴘᴀᴍꜱ ʜᴀɴɢɪɴɢ ᴍᴇꜱꜱᴀɢᴇ ꜰᴏʀ ɢɪᴠᴇɴ ᴄᴏᴜɴᴛᴇʀ.""",
             parse_mode=ParseMode.MARKDOWN,
             
@@ -872,9 +872,9 @@ def Music_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "Music_roy_extra":
-        query.message.edit_caption(f"*✿ ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ ✿*"
+        query.message.edit_caption(f"* ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ *"
             
-             f"""✿ ʜᴇʀᴇ ɪs ᴀʟʟ ᴀɴɪᴍᴇ ʀᴀɴᴅᴏᴍ ɢɪғs ᴄᴏᴍᴍᴀɴᴅs.\n\n❍ /bully ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙᴜʟʟʏ ɢɪғs.\n❍ /lick ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʟɪᴄᴋ ɢɪғs.\n❍ /bonk ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙᴏɴᴋ ɢɪғs.\n❍ /yeet ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʏᴇᴇᴛ ɢɪғs.\n❍ /blush ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙʟᴜsʜ ɢɪғs.\n❍ /smile ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sᴍɪʟᴇ ɢɪғs.\n❍ /wave ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴡᴀᴠᴇ ɢɪғs.\n❍ /highfive ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʜɪɢʜғɪᴠᴇ ɢɪғs.\n❍ /nom  ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ɴᴏᴍ ɢɪғs.\n❍ /handhold ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʜᴀɴᴅʜᴏʟᴅ ɢɪғs.\n❍ /bite ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙɪᴛᴇ ɢɪғs.\n❍ /glomp ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ɢʟᴏᴍᴘ ɢɪғs.\n❍ /happy ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʜᴀᴘᴘʏ ɢɪғs.\n❍ /wink ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴡɪɴᴋ ɢɪғs.\n❍ /poke ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴘᴏᴋᴇ ɢɪғs.\n❍ /dance ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴅᴀɴᴄᴇ ɢɪғs.\n❍ /ngif ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ɴɢɪғ.\n❍ /tickle ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴛɪᴄᴋʟᴇ ɢɪғs.\n❍ /feed ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ғᴇᴇᴅ ɢɪғs.\n❍ /kiss ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴋɪss ɢɪғs.\n❍ /smug ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sᴍᴜɢ ɢɪғs.\n❍ /slap ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sʟᴀᴘ ɢɪғs.""",
+             f""" ʜᴇʀᴇ ɪs ᴀʟʟ ᴀɴɪᴍᴇ ʀᴀɴᴅᴏᴍ ɢɪғs ᴄᴏᴍᴍᴀɴᴅs.\n\n❍ /bully ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙᴜʟʟʏ ɢɪғs.\n❍ /lick ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʟɪᴄᴋ ɢɪғs.\n❍ /bonk ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙᴏɴᴋ ɢɪғs.\n❍ /yeet ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʏᴇᴇᴛ ɢɪғs.\n❍ /blush ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙʟᴜsʜ ɢɪғs.\n❍ /smile ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sᴍɪʟᴇ ɢɪғs.\n❍ /wave ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴡᴀᴠᴇ ɢɪғs.\n❍ /highfive ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʜɪɢʜғɪᴠᴇ ɢɪғs.\n❍ /nom  ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ɴᴏᴍ ɢɪғs.\n❍ /handhold ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʜᴀɴᴅʜᴏʟᴅ ɢɪғs.\n❍ /bite ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙɪᴛᴇ ɢɪғs.\n❍ /glomp ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ɢʟᴏᴍᴘ ɢɪғs.\n❍ /happy ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʜᴀᴘᴘʏ ɢɪғs.\n❍ /wink ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴡɪɴᴋ ɢɪғs.\n❍ /poke ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴘᴏᴋᴇ ɢɪғs.\n❍ /dance ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴅᴀɴᴄᴇ ɢɪғs.\n❍ /ngif ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ɴɢɪғ.\n❍ /tickle ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴛɪᴄᴋʟᴇ ɢɪғs.\n❍ /feed ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ғᴇᴇᴅ ɢɪғs.\n❍ /kiss ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴋɪss ɢɪғs.\n❍ /smug ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sᴍᴜɢ ɢɪғs.\n❍ /slap ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sʟᴀᴘ ɢɪғs.""",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
@@ -1114,9 +1114,9 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 6922271843:
+        if OWNER_ID != 1149301515:
             update.effective_message.reply_text(
-                f"❅ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/noob-mukesh/nothing?)"
+                f"❅ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/noob/nothing?)"
                 f"\n\n❅ ʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]",
                 parse_mode=ParseMode.MARKDOWN,
                 
@@ -1165,8 +1165,8 @@ def main():
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
-                            url="https://t.me/avishaxbot?startgroup=true"
+                            text="ᴀᴅᴅ ᴍᴇ",
+                            url="https://t.me/ZaydenStreamBot?startgroup=true"
                             )
                        ]
                 ]
@@ -1177,7 +1177,7 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 photo=f"{START_IMG}",
                 caption=f"""
-❖ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ ❖
+❖ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ  ❖
      ━━━━━━━━ ⊱◈◈◈⊰ ━━━━━━━━
      
 **● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥** `{y()}`
@@ -1185,7 +1185,7 @@ def main():
 **● ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥** `{tlhver}`
 **● ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ ➥** `{pyrover}`
 
-**❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐](https://t.me/roy_editx)**
+**❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [˹𝙕𝙖𝙮𝙙𝙚𝙣 ✘ 𝙅𝙤𝙤𝙭 🎧˼](https://t.me/JooxStream)**
      ━━━━━━━━ ⊱◈◈◈⊰ ━━━━━━━━
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,
