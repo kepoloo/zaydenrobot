@@ -35,7 +35,7 @@ Avisha = [
     [
         InlineKeyboardButton(
             text="ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/roy_editx")
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/JooxStream")
     ],
 ]
 
@@ -61,7 +61,7 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.2)
     await m.reply_photo(
         random.choice(MISHI),
-        caption=f"""**❖ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](f"t.me/{BOT_USERNAME}") **\n\n● **ʟɪʙʀᴀʀʏ ➥** `{lver}`\n● **ᴛᴇʟᴇᴛʜᴏɴ ➥** `{tver}`\n● **ᴘʏʀᴏɢʀᴀᴍ ➥** `{pver}`\n● **ᴘʏᴛʜᴏɴ ➥** `{pyver()}`\n\n❖ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥** [๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐](tg://user?id={OWNER_ID})""",
+        caption=f"""**❖ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](f"t.me/{BOT_USERNAME}") **\n\n● **ʟɪʙʀᴀʀʏ ➥** `{lver}`\n● **ᴛᴇʟᴇᴛʜᴏɴ ➥** `{tver}`\n● **ᴘʏʀᴏɢʀᴀᴍ ➥** `{pver}`\n● **ᴘʏᴛʜᴏɴ ➥** `{pyver()}`\n\n❖ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥** [˹𝙕𝙖𝙮𝙙𝙚𝙣 ✘ 𝙅𝙤𝙤𝙭 🎧˼](tg://user?id={OWNER_ID})""",
         reply_markup=InlineKeyboardMarkup(Avisha),
     )
     
