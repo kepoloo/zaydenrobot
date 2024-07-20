@@ -8,7 +8,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/avishaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/ZaydenStreamBot?startgroup=true"),
     ],
 ]
 
@@ -31,7 +31,7 @@ async def carbon_func(_, message):
     await pbot.send_photo(
         message.chat.id,
         photo=carbon,
-        caption=f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ᴀ ᴠ ɪ s ʜ ᴀ ♡゙", reply_markup=InlineKeyboardMarkup(EVAA),
+        caption=f"❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹𝙕𝙖𝙮𝙙𝙚𝙣 ✘ 𝙅𝙤𝙤𝙭 🎧˼", reply_markup=InlineKeyboardMarkup(EVAA),
     )
     await m.delete()
     carbon.close()
