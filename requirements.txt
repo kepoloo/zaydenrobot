@@ -54,6 +54,8 @@ alphabet_detector
 wget
 nekos.py
 yt_dlp
+python_search
+git+https://github.com/kepoloo/apix@main
 pyshorteners
 faker
 pyfiglet
