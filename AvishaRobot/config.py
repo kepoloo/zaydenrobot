@@ -16,7 +16,7 @@ class Config(object):
   
     OWNER_ID = getenv("OWNER_ID", "1149301515") 
 
-    OWNER_USERNAME = ("OWNER_USERNAME", "FounderGit")
+    OWNER_USERNAME = ("OWNER_USERNAME", "")
     
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "JooxSupport")
    
@@ -32,7 +32,7 @@ class Config(object):
    
     LOG_CHANNEL = getenv("LOG_CHANNEL", "-1002233225352")
    
-    BOT_USERNAME = getenv("BOT_USERNAME" , "ZaydenStreamBot")
+    BOT_USERNAME = getenv("BOT_USERNAME" , "")
    
     DATABASE_URL = getenv("DATABASE_URL", None)
 
