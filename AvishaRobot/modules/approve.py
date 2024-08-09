@@ -5,12 +5,12 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CallbackQueryHandler
 from telegram.utils.helpers import mention_html
 
-import AvishaRobot.modules.sql.approve_sql as sql
-from AvishaRobot import DRAGONS, dispatcher
-from AvishaRobot.modules.disable import DisableAbleCommandHandler
-from AvishaRobot.modules.helper_funcs.chat_status import user_admin
-from AvishaRobot.modules.helper_funcs.extraction import extract_user
-from AvishaRobot.modules.log_channel import loggable
+import AarohiX.modules.sql.approve_sql as sql
+from AarohiX import DRAGONS, dispatcher
+from AarohiX.modules.disable import DisableAbleCommandHandler
+from AarohiX.modules.helper_funcs.chat_status import user_admin
+from AarohiX.modules.helper_funcs.extraction import extract_user
+from AarohiX.modules.log_channel import loggable
 
 
 @loggable
