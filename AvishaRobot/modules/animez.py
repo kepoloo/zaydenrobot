@@ -14,8 +14,8 @@ from telegram import (
 )
 from telegram.ext import CallbackContext, run_async
 
-from AvishaRobot import dispatcher,OWNER_ID
-from AvishaRobot.modules.disable import DisableAbleCommandHandler
+from AarohiX import dispatcher,OWNER_ID
+from AarohiX.modules.disable import DisableAbleCommandHandler
 
 info_btn = "ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ"
 kaizoku_btn = "ᴋᴀɪᴢᴏᴋᴜ 𓁋"
