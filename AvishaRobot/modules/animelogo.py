@@ -10,7 +10,7 @@ from pyrogram.types import *
 button = [
        [
             InlineKeyboardButton(
-                text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/ZaydenStreamBot?startgroup=true",
+                text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/AnonymousStreamBot?startgroup=true",
             )
         ]
 ]
