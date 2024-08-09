@@ -5,8 +5,8 @@ import requests
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler
 
-from AvishaRobot import dispatcher,OWNER_ID
-from AvishaRobot.modules.disable import DisableAbleCommandHandler
+from AarohiX import dispatcher,OWNER_ID
+from AarohiX.modules.disable import DisableAbleCommandHandler
 
 
 def anime_quote():
