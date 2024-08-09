@@ -1,11 +1,11 @@
 import time, re
-from AvishaRobot import BOT_USERNAME
+from AarohiX import BOT_USERNAME
 from pyrogram.enums import MessageEntityType
 from pyrogram import filters
 from pyrogram.types import Message
-from AvishaRobot import pbot as app
-from AvishaRobot.Love.readable_time import get_readable_time
-from AvishaRobot.Love.afkdb import add_afk, is_afk, remove_afk
+from AarohiX import pbot as app
+from AarohiX.Love.readable_time import get_readable_time
+from AarohiX.Love.afkdb import add_afk, is_afk, remove_afk
 import random 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
