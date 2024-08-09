@@ -97,7 +97,7 @@ if ENV:
         raise Exception("Your whitelisted users list does not contain valid integers.")
 
 else:
-    from AvishaRobot.config import Development as Config
+    from AarohiX.config import Development as Config
 
     API_ID = Config.API_ID
     API_HASH = Config.API_HASH
@@ -164,7 +164,7 @@ DEV_USERS.add(OWNER_ID)
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("avisha", API_ID, API_HASH)
 
-pbot = Client("AvishaRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN,in_memory=True)
+pbot = Client("AarohiX", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN,in_memory=True)
 dispatcher = updater.dispatcher
 aiohttpsession = ClientSession()
 
@@ -180,7 +180,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from AvishaRobot.modules.helper_funcs.handlers import (
+from AarohiX.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
