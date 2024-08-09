@@ -27,8 +27,8 @@ from telegram.ext.dispatcher import DispatcherHandlerStop
 from telegram.utils.helpers import escape_markdown
 from telethon import __version__ as tlhver
 
-import AvishaRobot.modules.no_sql.users_db as sql
-from AvishaRobot import (
+import AarohiX.modules.no_sql.users_db as sql
+from AarohiX import (
     BOT_NAME,
     BOT_USERNAME,
     LOGGER,
@@ -42,9 +42,9 @@ from AvishaRobot import (
     telethn,
     updater,
 )
-from AvishaRobot.modules import ALL_MODULES
-from AvishaRobot.modules.helper_funcs.chat_status import is_user_admin
-from AvishaRobot.modules.helper_funcs.misc import paginate_modules
+from AarohiX.modules import ALL_MODULES
+from AarohiX.modules.helper_funcs.chat_status import is_user_admin
+from AarohiX.modules.helper_funcs.misc import paginate_modules
 
 
 def get_readable_time(seconds: int) -> str:
@@ -233,7 +233,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("AvishaRobot.modules." + module_name)
+    imported_module = importlib.import_module("AarohiX.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -530,7 +530,7 @@ def Avisha_about_callback(update: Update, context: CallbackContext):
             parse_mode=ParseMode.MARKDOWN,
             timeout=60,
         )
-def AvishaRobot_Main_Callback(update: Update, context: CallbackContext):
+def AarohiX_Main_Callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Main_help":
         query.message.edit_caption(f"""
@@ -1217,8 +1217,8 @@ def main():
     music_callback_handler = CallbackQueryHandler(
         Music_about_callback, pattern=r"Music_",run_async=True
     )
-    avisharobot_main_handler = CallbackQueryHandler(
-        AvishaRobot_Main_Callback, pattern=r".*_help",run_async=True)
+    AarohiX_main_handler = CallbackQueryHandler(
+        AarohiX_Main_Callback, pattern=r".*_help",run_async=True)
     donate_handler = CommandHandler("donate", donate)
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
     dispatcher.add_handler(start_handler)
@@ -1230,7 +1230,7 @@ def main():
     dispatcher.add_handler(settings_callback_handler)
     dispatcher.add_handler(migrate_handler)
     dispatcher.add_handler(donate_handler)
-    dispatcher.add_handler(avisharobot_main_handler)
+    dispatcher.add_handler(AarohiX_main_handler)
     dispatcher.add_error_handler(error_callback)
     dispatcher.add_handler(source_callback_handler)
     LOGGER.info("Using long polling.")
